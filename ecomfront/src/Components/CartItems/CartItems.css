@@ -1,0 +1,165 @@
+.cartitems{
+    margin:100px 170px;
+}
+.cartitems hr{
+  height:3px;
+  background: rgb(214, 206, 206);
+  border:0;
+}
+.cartitems-format-main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap:75px;
+    padding: 20px 0px;
+    color: rgb(64, 60, 60);
+    font-size: 18px;
+    font-weight:700; 
+}
+.cartitems-format{
+    font-size:17px ;
+    font-weight: 500;
+}
+.carticon-product-icon{
+  height: 100px;
+}
+.cartitems-remove-icons{
+  width: 30px;
+  margin: 0px 40px;
+  cursor: pointer;
+  background: red;
+  border: red solid 4px;
+}
+.carticon-product-icon{
+  height: 62px;
+}
+.cartitems-remove-icons{
+  width:15px;
+  margin:0px 40px;
+  cursor: pointer;
+}
+.cartitems-quantity{
+  width: 64px;
+  height:50px;
+  font-size: 15px;
+  font-weight: 600;
+  border:2px solid white;
+  background: rgb(240, 234, 234);
+}
+.cartitems-down{
+  display: flex;
+  margin:100px 0px;
+
+}
+.cartitems-total{
+  flex:1;
+  display: flex;
+ flex-direction: column;
+ margin-right: 200px;
+ gap:40px
+ }
+ .carttems-total-item{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+ }
+ .cartitems-total button{
+  width:262px;
+  height:58px;
+  outline:none;
+  border:none;
+ background: rgb(239, 113, 113);
+ color:whitesmoke;
+ font-size: 16px;
+ font-weight: 600;
+ cursor: pointer;
+ }
+ .cartitems-promocode{
+  flex:1;
+  font-size:16px;
+  font-weight: 500;
+ }
+ .cartitems-promocode p{
+  color:rgb(133, 125, 125);
+ }
+ .cartitems-promobox{
+  width:504px;
+  margin-top:15px;
+
+  height:58px;
+  background: rgb(237, 234, 234);
+ }
+ .cartitems-promobox input{
+  border:none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  width:330px;
+  height:50px;
+ }
+ .cartitems-promobox button{
+ width:170px;
+ height:58px;
+ font-size:16px;
+ background: rgb(7, 7, 7);
+ color:rgb(238, 242, 246);
+ cursor: pointer;
+ }
+ @media(max-width:1280px){
+  .cartitems{
+    margin: 60px 50px;
+  }
+  .cartitems-format-main{
+    grid-template-columns: 0.5fr 3fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    gap:20px;
+    padding: 15px 0px;
+    font-size:15px; 
+  }
+  .carticon-product-icon{
+   height: 50px;
+  }
+  .cartitems-remove-icons{
+    margin:auto;
+  }
+  .cartitems-quantity{
+    width:40px;
+    height: 30px;
+  }
+  .cartitems-down{
+    margin: 80px 0px;
+    flex-direction: column;
+    gap:80px;
+  }
+  .cartitems-total{
+    margin: 0px;
+  }
+  .cartitems-total button{
+    max-width:200px;
+    height:45px;
+    font-size:14px;
+  }
+  .cartitems-promobox{
+    width:auto;
+    max-width: 500px;
+  }
+  .cartitems-promobox input{
+   width:100%; 
+  }
+  .cartitems-promobox button{
+    width:120px;
+    margin-left:-125px ;
+  }
+ }
+ /* 500px */
+
+ @media(max-width:500px){
+  .cartitems-format-main{
+    display: none;
+    grid-template-columns: 0.5fr 3fr 0.5fr;
+    gap:10px;
+    
+  }
+  .cartitems-format{
+    display: grid;
+  }
+ }
