@@ -28,7 +28,7 @@ This is a comprehensive eCommerce website with distinct frontend, backend, and a
   - User information is securely stored in MongoDB Atlas.
 
 - **Product Browsing:**
-  - Users can view products categorized into Men, Women, and Children sections.
+  - Users can view products categorized into Home, Men, Women, and Children sections.
 
 - **Product Management:**
   - Authenticated users can add products.
