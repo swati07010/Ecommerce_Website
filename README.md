@@ -11,6 +11,9 @@ This is a comprehensive eCommerce website with distinct frontend, backend, and a
 - CSS
 - JavaScript
 - Bootstrap
+- react-router-dom
+- Vite
+
 
 **Backend:**
 - Express.js
