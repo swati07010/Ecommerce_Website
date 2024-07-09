@@ -57,4 +57,4 @@ This is a comprehensive eCommerce website with distinct frontend, backend, and a
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/ecommerce-website.git
+   git clone https://github.com/swati07010/Ecommerce_Website
