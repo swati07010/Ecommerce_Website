@@ -20,6 +20,8 @@ This is a comprehensive eCommerce website with distinct frontend, backend, and a
 - CORS
 - jwt
 - path
+- jsonwebtoken
+
 
 
 
