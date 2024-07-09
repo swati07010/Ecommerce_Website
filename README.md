@@ -18,8 +18,8 @@ This is a comprehensive eCommerce website with distinct frontend, backend, and a
 - Multer
 - Mongoose
 - CORS
--jwt
--path
+- jwt
+- path
 
 
 
